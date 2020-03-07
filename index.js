@@ -11,6 +11,10 @@ const isNotEmpty = (d) => {
     if(d && typeof d === 'object' && d.constructor === Array && d.length){
       return true
     }
+
+    if(d && typeof d === 'object' && d.constructor === Object && Object.keys(d).length){
+      return true
+    }
   }
 
   return false
