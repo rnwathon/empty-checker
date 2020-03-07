@@ -5,12 +5,12 @@ Just a simple utility function to detect wether the data is empty or not.
 ```javascript
 
 if(isNotEmpty([])){
-  console.log('I am not empty')
+  console.log(" I am not empty ")
 }else{
-  console.log('I am empty :('))
+  console.log(" I am empty :( "))
 }
 
-// Will print 'I am empty'
+// Will print " I am empty :( "
 
 ```
 
