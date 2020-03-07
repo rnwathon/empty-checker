@@ -7,6 +7,10 @@ const isNotEmpty = (d) => {
     if(typeof d === 'number' && isFinite(d)){
       return true
     }
+
+    if(d && typeof d === 'object' && d.constructor === Array && d.length){
+      return true
+    }
   }
 
   return false
